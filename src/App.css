@@ -65,10 +65,18 @@ footer a:active{
 	background-color: white;
 }
 
+.tertiary-theme {
+	background-color: #f9a825;
+}
+
 .primary-theme-text {
 	color: #c80000;
 }
 
 .secondary-theme-text {
 	color: white;
+}
+
+.tertiary-theme-text {
+	color: #f9a825;
 }

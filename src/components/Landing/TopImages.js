@@ -7,7 +7,7 @@ function TopImages() {
 	return (
 		<div id="top">
 			<Parallax bgImage={purple_space} strength={500}>
-				<div class="parallax-container"></div>
+				<div className="header-img-container"></div>
 			</Parallax>
 			<Box sx={{ boxShadow: 25}}>
 				<img id="pfp" src={me}/>
