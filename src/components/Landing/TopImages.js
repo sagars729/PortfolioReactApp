@@ -10,7 +10,7 @@ function TopImages() {
 				<div className="header-img-container"></div>
 			</Parallax>
 			<Box sx={{ boxShadow: 25}}>
-				<img id="pfp" src={me}/>
+				<img id="pfp" src={me} alt=""/>
 			</Box>
 		</div>
 	);
