@@ -1,0 +1,48 @@
+{
+	"experience": [
+		{
+			"id": "amazon",
+			"company": "Amazon",
+			"position": "Software Development Engineering Intern",
+			"duration": "June 2021 - August 2021",
+			"link": null,
+			"location": "Seattle, Washington",
+			"icon": "/media/landing/amazon.jpg",
+			"description": "I was an SDE 1 intern for the Amazon Associates team. I developed and owned an end-to-end recommendation system for matching brands with content creators. To accomplish this I created an ML recommender model and deployed it using AWS and Amazon's internal tools and services. I built a pipeline to automate data preprocessing and model training, evaluation, and prediction. I also authored a design document that detailed my research findings, proposed architecture, results, and next steps.\nThroughout this internship, I learned how to work with multiple AWS Services such as Sagemaker, S3, EMR, ECR, CloudFormation, and IAM. I also took multiple courses through Amazon's Machine Learning University to expand my ML skills.",
+			"skills": ["Python","Scala","AWS","line","Machine Learning","AutoGluon","Jupyter","line","Scrum","Design Doc"]
+		},
+		{
+			"id":"capone",
+			"company": "Capital One",
+			"position": "Tech Incubator Intern",
+			"duration": "June 2020 - May 2021",
+			"link": null,
+			"location": "College Park, Maryland",
+			"icon": "/media/landing/capone.png",
+			"description": "I was a Software Engineering Intern at the Tech Incubator Lab.\nDuring Spring 2021, I worked with the DataProfiler team to add new features and tests to the open-source DataProfiler repository.\nIn the fall, I worked with the Accessibility team to migrate Capital One's digital property inventory to a web interface. We created a ReactJS Web App that was hosted on AWS using S3, Lambda, add DynamoDB.\nOver the summer, I worked with the CyberML team to develop anomaly detection models for network traffic using Machine Learning. We created models from the ground up - starting with an initial research stage and ending with developed proof of concept models that are being carried forward by the CyberML team. These models will help Capital One identify new and existing threats on their network perimeter.\nI have also gained experience working with Agile Methodology and had the opportunity to use Capital One's Tech Invest In Yourself Days to gain skills in AWS and Unsupervised Learning.",
+			"skills": ["Python","ReactJS","AWS","line","Machine Learning","Unsupervised Learning","Google Colab","line","Agile","Open Source"]
+		},
+		{
+			"id":"ta",
+			"company": "University of Maryland at College Park",
+			"position": "Undergraduate Teaching Assistant",
+			"duration": "August 2020 - Present",
+			"link": null,
+			"location": "College Park, Maryland",
+			"icon": "/media/landing/umd.png",
+			"description": "I am currently a peer mentor for the First-Year Innovation & Research Experience program. I am also a STIC Facilitator for CMSC389T (formerly CMSC388T).\nDuring Winter 2021, I was a CS Undergradute Teaching Assistant for Introduction to Git, Github, and Project Management Tools (CMSC388T). I helped design the lectures, create the projects, and launch the new CMSC course. I also managed four teams in a basic DevOps environment.\nDuring Fall 2020, I was a CS Undergraduate Teaching Assistant for CMSC330 (Organization of Programming Languages). I held weekly office hours and helped students learn and understand the course material.",
+			"skills": ["Programming Languages","OCaml","Ruby","Rust","line","Git","GitHub","Docker","DevOps","line","Machine Learning","Unsupervised Learning","Reinforcement Learning","line","Teaching","Project Management","line","Canvas","Gradescope","Piazza"]
+		},
+		{
+			"id":"research",
+			"company": "University of Maryland at College Park",
+			"position": "Undergraduate Researcher",
+			"duration": "October 2019 - Present",
+			"link": null,
+			"location": "College Park, Maryland",
+			"icon": "/media/landing/umd.png",
+			"description": "I am currently pursing research on using Generative Adversarial Networks to improve building damage classification following natural disasters.\nI have pursued research focused on investigating various Generative Adversarial Networks, their applications, and extrapolating them to new datasets and problems. As a part of this research, I wrote journal reports on the observations and analysis of experiments. I co-authored and submitted a paper on my research to IJCV where it is currently under review.",
+			"skills": ["Python","Keras","line","Github","JupyterLab","Anaconda","line","Computer Vision","Machine Learning"]
+		}
+	]
+}	

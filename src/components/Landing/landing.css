@@ -21,6 +21,19 @@
     #content{
         margin: 0px 10% 0px 10%;   
     }
+
+	.modal-box{
+		width: 50%;
+	}
+}
+@media(max-width: 999px){
+    #content{
+        margin: 0px 0% 0px 0%;   
+    }
+
+	.modal-box{
+		width: 100%;
+	}
 }
 .header_text{
     font-family: "Arvo";
@@ -47,7 +60,22 @@ h5, .card_small h6{
     padding:0px;
 }
 .expandPrompt{
-    visibility: hidden;
     padding: 0px;
     margin: 0px;
+}
+.card_content img{
+	width: 100%;
+}
+
+.modal-content{
+	padding: 24px;
+}
+
+.modal-content img{
+	width: 100%;
+}
+
+.skillset li{
+	margin: 0;
+	padding: 0;
 }

@@ -69,6 +69,10 @@ footer a:active{
 	background-color: #f9a825;
 }
 
+.black-theme {
+	background-color: black;
+}
+
 .primary-theme-text {
 	color: #c80000;
 }
@@ -79,4 +83,8 @@ footer a:active{
 
 .tertiary-theme-text {
 	color: #f9a825;
+}
+
+.black-theme-text {
+	color: black;
 }

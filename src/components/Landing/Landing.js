@@ -1,5 +1,6 @@
 import TopImages from './TopImages';
 import Summary from './Summary';
+import Experience from './Experience';
 import './landing.css';
 
 function Landing() {
@@ -8,6 +9,7 @@ function Landing() {
 			<TopImages></TopImages>
 			<div class="content_text">
 				<Summary/>
+				<Experience/>
 			</div>
 		</div>
 	);
