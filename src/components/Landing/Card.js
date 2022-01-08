@@ -1,10 +1,7 @@
 import Grid from '@mui/material/Grid';
-import Button from '@mui/material/Button';
-import Modal from '@mui/material/Modal';
 import Box from '@mui/material/Box';
-import Typography from '@mui/material/Typography';
 import React, { useState } from 'react';
-import Describe from './Describe';
+import PopUp from './PopUp';
 
 function updateClassName(setClassName, small, shadow) {
 	setClassName("card_content" + (small ? " card_small" : "") + (shadow ? " z-depth-5": ""));
@@ -27,6 +24,14 @@ function Card(props) {
 
 	const right_card = props.right ? (<></>) : (<Grid item xs={2}><img src={props.card_img}/></Grid>);
 	const left_card = props.right ? (<Grid item xs={2}><img src={props.card_img}/></Grid>) : (<></>);
+	const center_card = (
+            <Grid item xs={10}>
+                <h5 className="header_text">{props.position}</h5>
+                <h6 className="body_text">{props.company}</h6>
+                <h6 className="body_text">{props.duration}</h6>
+                <h6 className="body_text">{props.location}</h6>
+            </Grid>
+        );
 	const card_content = (props.small ?
 		(
 			<Grid item xs={10}>
@@ -35,14 +40,7 @@ function Card(props) {
 				<p className="body_text">{props.duration}</p>
 				<p className="body_text">{props.location}</p>
   			</Grid>
-		) : (
-			<Grid item xs={10}>
-				<h5 className="header_text">{props.position}</h5>
-				<h6 className="body_text">{props.company}</h6>
-				<h6 className="body_text">{props.duration}</h6>
-				<h6 className="body_text">{props.location}</h6>
-  			</Grid>
-		));
+		) : center_card);
 
 	return (
 		<>
@@ -70,50 +68,18 @@ function Card(props) {
 				<p className="centerel expandPrompt" style={{visibility: promptVisibility}}>Click To Expand</p>
 			</div>
 		</a>
-		<Modal
-			open={modalOpen}
-			onClose={() => setModalOpen(false)}
-			aria-labelledby="modal-modal-title"
-			aria-describedby="modal-modal-description"
-			>
-			<div id={props.elid}>
-					<Box style={{
-						position: 'absolute',
-						top: '50%',
-						left: '50%',
-						transform: 'translate(-50%, -50%)',
-						bgcolor: 'white'
-						}}
-						className="modal-box"
-						>
-							<div className="modal-content secondary-theme">
-								<Grid container spacing={0}>
-									{left_card}
-									<Grid item xs={10}>
-										<h5 className="header_text">{props.position}</h5>
-										<h6 className="body_text">{props.company}</h6>
-										<h6 className="body_text">{props.duration}</h6>
-										<h6 className="body_text">{props.location}</h6>
-  									</Grid>
-									{right_card}
-								</Grid>
-								<Describe 
-									description={props.description}
-									skills={props.skills}
-									/>
-								
-			                	<Typography>
-									<p 
-										className="flow-text body_text tertiary-theme-text"
-										align="right"
-										onClick={() => setModalOpen(false)}
-										>Close
-									</p>
-								</Typography>
-							</div>
-					</Box>
-			</div>	
-		</Modal>
+		{props.card_link ? (<></>) : (
+			<PopUp
+				modalOpen={modalOpen}
+				setModalOpen={setModalOpen}
+				elid={props.elid}
+				left_card={left_card}
+				center_card={center_card}
+				right_card={right_card}
+				description={props.description}
+				skills={props.skills} 
+				external_links={props.external_links} />
+		)}
 		</>
 	);
 }

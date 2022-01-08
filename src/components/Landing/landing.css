@@ -59,6 +59,9 @@ h5, .card_small h6{
 .card_small p{
     padding:0px;
 }
+.card_small{
+    padding:2%;
+}
 .expandPrompt{
     padding: 0px;
     margin: 0px;

@@ -22,6 +22,7 @@ function Experience() {
 					description={exp["description"]}
 					skills={exp["skills"]}	
 					card_link={exp["link"]}
+					external_links={exp["external_links"]}
 				/>
 			)}	
 		</div>

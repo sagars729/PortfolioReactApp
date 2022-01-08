@@ -42,7 +42,40 @@
 			"location": "College Park, Maryland",
 			"icon": "/media/landing/umd.png",
 			"description": "I am currently pursing research on using Generative Adversarial Networks to improve building damage classification following natural disasters.\nI have pursued research focused on investigating various Generative Adversarial Networks, their applications, and extrapolating them to new datasets and problems. As a part of this research, I wrote journal reports on the observations and analysis of experiments. I co-authored and submitted a paper on my research to IJCV where it is currently under review.",
-			"skills": ["Python","Keras","line","Github","JupyterLab","Anaconda","line","Computer Vision","Machine Learning"]
+			"skills": ["Python","Keras","line","Github","JupyterLab","Anaconda","line","Computer Vision","Machine Learning"],
+			"external_links": [
+				{
+					"id": "gan_github",
+					"title": "Project Repository",
+					"subtitle": "Hosted on GitHub",
+					"status": "Ongoing Project",
+					"description": "This is a public repository",
+					"icon": "/media/landing/github.png",
+					"link": "https://github.com/sagardsaxena/GAN"
+				}
+			]	
+		},
+		{
+			"id":"dit",
+			"company": "University of Maryland at College Park",
+			"position": "Student Software Developer",
+			"duration": "January 2020 - June 2020",
+			"link": null,
+			"location": "College Park, Maryland",
+			"icon": "/media/landing/dit.png",
+			"description": "I worked as a Student Software Developer for the Division of Information Technology at the University of Maryland. I worked on projects with Service-Now and automated user testing using Selenium WebDriver and performance testing using Locust.",
+			"skills": ["Python","Pytest","Selenium","Locust","JMeter","line","Github","ServiceNow","Jira","Bitbucket","AWS EC2","line","Automation","Testing"],
+			"external_links": [
+				{
+					"id": "gan_github",
+					"title": "Project Repository",
+					"subtitle": "Hosted on GitHub",
+					"status": "Completed Project",
+					"description": "This is a public repository",
+					"icon": "/media/landing/github.png",
+					"link": "https://github.com/sagars729/ServiceNow"
+				}
+			]	
 		}
 	]
 }	
