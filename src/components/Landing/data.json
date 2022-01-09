@@ -76,6 +76,81 @@
 					"link": "https://github.com/sagars729/ServiceNow"
 				}
 			]	
+		},
+		{
+			"id":"anant",
+			"company": "Anant Corporation",
+			"position": "Internet Architect Apprentice, Blog Writer",
+			"duration": "June 2018 - August 2018",
+			"link": null,
+			"location": "Washington D.C.",
+			"icon": "/media/landing/anant.png",
+			"description": "My primary objective was to work on the Smmindy project. Smmindy or the Sales Marketing Mind, is a project that involves scraping details of jobs (opportunities), people (leads), and companies (accounts) from various websites such as LinkedIn, RemoteOk, Github, etc, classifying this data to identify potential clients using Machine Learning, connecting all this data together, and displaying this data on a website. I worked with Python, NodeJS, ReactJS, Docker, Cassandra, Kubernetes, ElasticSearch, and Digital Ocean on this project.\nSecondary responsibilities included creating Headless Chrome Browser NodeJS bots for automating tasks and writing blogs for the Anant Corporation Blog.", 
+			"skills": ["Python","Node.js","React","line","GitHub","Digital Ocean","Docker","ElasticSearch","Kubernetes","Cassandra","Nightmare","Puppeteer","line","Machine Learning","Blogging"],
+			"external_links": [
+				{
+					"id": "anant_hire",
+					"title": "Hiring High School Students as Interns For Your Company",
+					"subtitle": "Anant Corporation",
+					"status": "August 15, 2018",
+					"description": "",
+					"icon": "/media/landing/hire_anant.png",
+					"link": "https://blog.anant.us/hiring-high-school-students-interns/"
+				},
+				{
+					"id": "anant_python",
+					"title": "Why Python is the Preferred Language For Machine Learning",
+					"subtitle": "Anant Corporation",
+					"status": "August 27, 2018",
+					"description": "",
+					"icon": "/media/landing/python_anant.png",
+					"link": "https://blog.anant.us/python-for-machine-learning/"
+				}
+			]	
+		},
+		{
+			"id":"bigparser",
+			"company": "Big Parser",
+			"position": "Community Lead, API Team Lead, Alexa Skills and Web Developer",
+			"duration": "June 2017 - August 2017",
+			"link": null,
+			"location": "Reston, Virginia",
+			"icon": "/media/landing/anant.png",
+			"description": "API Team Lead - Reviewed and Tested the company's API and created a website to provide documentation for the API. This website was later used at the Big Parser Summer Hackathon.\nDeveloper for Voice Product - Coded an Alexa application that connects the Big Parser Grid to Alexa using Natural Language Processing, NodeJS, Python, and AWS Lambda. Met with other developers and company heads to talk to them about the Big Parser Voice product.\nCommunity Lead - Met with High School and Middle School students and taught them how to code, use the Big Parser API, and create Grids and Alexa Skills to prepare them for the Big Parser Summer Hackathon. Mentored at the 14-hour Big Parser Hackathon held at Microsoft, and taught students how to code and helped them develop full-fledged projects using the Big Parser API.",
+			"skills": ["Python","Node.js","AngularJS","HTML","CSS","line","Github","AWS","line","Machine Learning","Team Management"],
+			"external_links": [
+				{
+					"id": "bp_github",
+					"title": "Big Parser Guide Repository",
+					"subtitle": "GitHub",
+					"status": "August 19, 2017",
+					"description": "This Is a Public Repository",
+					"icon": "/media/landing/github.png",
+					"link": "https://github.com/sagars729/BigParser_Guides"
+				}
+			]	
+		},
+		{
+			"id":"math",
+			"company": "Loudoun County Regional Math Tournament",
+			"position": "Mathematics Tutor and Coach",
+			"duration": "December 2015 - March 2018",
+			"link": null,
+			"location": "Ashburn, Virginia",
+			"icon": "/media/landing/math.jpg",
+			"description":"I was a coach for a math team participating in the Loudoun County Regional Math Tournament, and it was my job to ensure that the students on my team are well prepared for their upcoming competition. As a coach, I taught various mathematical concepts in Algebra 1 and Geometry to a group of 8th graders. I taught students how to address problems that can arise during a competition and instill collaborative techniques and skills into the students, not only to aid them in this specific competition but also to help them with their daily academic careers.", 
+			"skills":["Teaching","Youth Mentoring","Team Building"]
+		},
+		{
+			"id":"mandir",
+			"company": "Rajdhani Mandir",
+			"position": "Hindi Tutor, Mentor",
+			"duration": "September 2016 - January 2017",
+			"link": null,
+			"location": "Chantilly, Virginia",
+			"icon": "/media/landing/mandir.png",
+			"description": "I tutored young children in Hindi and taught them how to speak common phrases and sentences in the language. I also taught kids about Indian culture, as well as teaching a basic version of Indian History and Geography.",
+			"skills":["Hindi","line","Teaching","Youth Mentoring","Team Building"] 
 		}
 	]
-}	
+}
