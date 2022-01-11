@@ -78,7 +78,8 @@ function Card(props) {
 				right_card={right_card}
 				description={props.description}
 				skills={props.skills} 
-				external_links={props.external_links} />
+				external_links={props.external_links} 
+				lists={props.lists}/>
 		)}
 		</>
 	);

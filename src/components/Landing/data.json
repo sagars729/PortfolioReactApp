@@ -152,5 +152,56 @@
 			"description": "I tutored young children in Hindi and taught them how to speak common phrases and sentences in the language. I also taught kids about Indian culture, as well as teaching a basic version of Indian History and Geography.",
 			"skills":["Hindi","line","Teaching","Youth Mentoring","Team Building"] 
 		}
+	],
+	"education": [
+		{
+			"id":"umd",
+			"company": "University of Maryland at College Park",
+			"position": "Computer Science Major",
+			"duration": "August 2019 - Present",
+			"link": null,
+			"location": "College Park, Maryland",
+			"icon": "/media/landing/umd.png",
+			"description": "Computer Science Major\nComputer Science Departmental Honors Program\nMachine Learning Specialization\nMathematics Minor",
+			"skills": ["Computer Science","Machine Learning","Data Science","Mathematics"],
+			"lists": [
+				{
+					"category": "Computer Science",
+					"contents": ["Discrete Structures","Computer Systems","Algorithms","Organization of Programming Languages", "Data Science", "Machine Learning", "Deep Learning", "Computer Vision", "Artificial Intelligence", "Network Security", "Database Design", "Gaurantees and Analysis of ML"]
+				},
+				{
+					"category": "Mathematics",
+					"contents": ["Linear Algebra","Number Theory", "Computational Geometry", "Advanced Calculus", "Combinatorics and Graph Theory", "Advanced Linear Algebra", "Cryptography"]
+				},
+				{
+					"category": "Other Electives",
+					"contents": ["First-Year Innovation & Research Experience"] 
+				}
+			]
+		},
+		{
+			"id":"tj",
+			"company": "Thomas Jefferson High School For Science And Technology",
+			"position": "Alumnus, Computer Science",
+			"duration": "August 2015 - June 2019",
+			"link": null,
+			"location": "Alexandria, Virginia",
+			"icon": "/media/landing/tj.png",
+			"lists": [
+				{
+					"category": "Post-AP Courses",
+					"contents": ["Computer Vision","Artificial Intelligence","Parallel Computing","Multivariable Calculus","Linear Algebra","Web Development","Mobile Development"]
+				},
+				{
+					"category": "AP Courses",
+					"contents": ["Computer Science","BC Calculus","Statistics","Psychology","Economics","Physics","Literature","Government"]
+				},
+				{
+					"category": "Other Electives",
+					"contents": ["Computer Systems Lab","Cryptography","Analog Electronics","Digital Electronics"]
+				}
+			]
+		}
 	]
+
 }

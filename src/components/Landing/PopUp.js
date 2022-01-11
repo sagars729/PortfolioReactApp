@@ -5,9 +5,11 @@ import Typography from '@mui/material/Typography';
 import React, { useState } from 'react';
 import Describe from './Describe';
 import Card from './Card';
+import List from './List';
 
 function PopUp(props) {
 	const external_links = props.external_links ? props.external_links : [];
+	const lists = props.lists ? props.lists : [];
 	return (	
 		<Modal
 			open={props.modalOpen}
@@ -31,11 +33,23 @@ function PopUp(props) {
 									{props.center_card}
 									{props.right_card}
 								</Grid>
-								<Describe 
-									description={props.description}
-									skills={props.skills}
-									/>
-			
+
+								{props.description ? (
+									<Describe 
+										description={props.description}
+										skills={props.skills}
+										/>
+									) : <></>
+								}
+
+								{lists.map(list =>
+									(<List
+										flowText={false}
+										category={list["category"]}
+										contents={list["contents"]}
+									/>))
+								}
+
 								{external_links.map(link =>
 									<Card
 										small={true}
