@@ -16,6 +16,9 @@ function PopUp(props) {
 			onClose={() => props.setModalOpen(false)}
 			aria-labelledby="modal-modal-title"
 			aria-describedby="modal-modal-description"
+			style={{
+				overflow:'scroll',
+			}}
 			>
 			<div id={props.elid}>
 					<Box style={{
