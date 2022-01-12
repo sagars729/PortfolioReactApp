@@ -47,6 +47,7 @@ function PopUp(props) {
 										flowText={false}
 										category={list["category"]}
 										contents={list["contents"]}
+										text_theme="black-theme-text"
 									/>))
 								}
 

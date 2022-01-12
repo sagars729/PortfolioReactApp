@@ -1,7 +1,8 @@
 import TopImages from './TopImages';
 import Summary from './Summary';
 import CardList from './CardList';
-import data from './data'
+import ListList from './ListList';
+import data from './data';
 import './landing.css';
 
 function Landing() {
@@ -19,7 +20,7 @@ function Landing() {
 					header="Experiences"
 					data={data["experience"]}
 					text_theme="black-theme-text"/>
-				{/** Experiences **/}
+				{/** Education **/}
 				<CardList
 					id="education"
 					theme="primary-theme"
@@ -27,7 +28,42 @@ function Landing() {
 					header="Education"
 					data={data["education"]}
 					text_theme="secondary-theme-text"/>
-
+				{/** Skills **/}
+				<ListList
+					id="skills"
+					header="Skills"
+					theme="secondary-theme"
+					header_theme="primary-theme-text"
+					data={data["skills"]}
+					text_theme="black-theme-text"
+				/>
+				{/** Extracurriculars **/}
+				<CardList
+					id="extracurriculars"
+					theme="primary-theme"
+					header_theme="tertiary-theme-text"
+					header="Extracurriculars"
+					data={data["extracurriculars"]}
+					text_theme="secondary-theme-text"/>
+				{/** Accomplishments**/}
+				<CardList
+					id="accomplishments"
+					theme="secondary-theme"
+					header_theme="primary-theme-text"
+					header="Accomplishments"
+					data={data["accomplishments"]}
+					text_theme="black-theme-text"/>
+				{/** Scores **/}
+				<ListList
+					id="scores"
+					header="Scores"
+					theme="primary-theme"
+					header_theme="tertiary-theme-text"
+					data={data["scores"]}
+					text_theme="secondary-theme-text"
+				/>
+				{/** Projects **/}
+				
 			</div>
 		</div>
 	);
