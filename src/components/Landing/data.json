@@ -115,7 +115,7 @@
 			"duration": "June 2017 - August 2017",
 			"link": null,
 			"location": "Reston, Virginia",
-			"icon": "/media/landing/anant.png",
+			"icon": "/media/landing/bp.png",
 			"description": "API Team Lead - Reviewed and Tested the company's API and created a website to provide documentation for the API. This website was later used at the Big Parser Summer Hackathon.\nDeveloper for Voice Product - Coded an Alexa application that connects the Big Parser Grid to Alexa using Natural Language Processing, NodeJS, Python, and AWS Lambda. Met with other developers and company heads to talk to them about the Big Parser Voice product.\nCommunity Lead - Met with High School and Middle School students and taught them how to code, use the Big Parser API, and create Grids and Alexa Skills to prepare them for the Big Parser Summer Hackathon. Mentored at the 14-hour Big Parser Hackathon held at Microsoft, and taught students how to code and helped them develop full-fledged projects using the Big Parser API.",
 			"skills": ["Python","Node.js","AngularJS","HTML","CSS","line","Github","AWS","line","Machine Learning","Team Management"],
 			"external_links": [
