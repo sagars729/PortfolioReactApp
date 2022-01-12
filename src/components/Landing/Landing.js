@@ -2,6 +2,7 @@ import TopImages from './TopImages';
 import Summary from './Summary';
 import CardList from './CardList';
 import ListList from './ListList';
+import Projects from './Projects';
 import data from './data';
 import './landing.css';
 
@@ -63,7 +64,7 @@ function Landing() {
 					text_theme="secondary-theme-text"
 				/>
 				{/** Projects **/}
-				
+				<Projects />				
 			</div>
 		</div>
 	);
