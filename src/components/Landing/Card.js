@@ -45,7 +45,7 @@ function Card(props) {
 	return (
 		<>
 		<a 
-			href={props.card_link ? props.card_link : "#"} 
+			href={props.card_link ? props.card_link : "#" + props.elid + "_card"} 
 			onClick={() => setModalOpen(true)}
 			className={props.theme_text}
 			>
@@ -57,7 +57,7 @@ function Card(props) {
 				onMouseLeave={() => rem_shadow(setClassName, props.small, setPromptVisibility)} 
 				className={className} 
 				id={props.elid + "_card"}
-				href={props.card_link ? props.card_link : "#" + props.elid}>
+				href={props.card_link ? props.card_link : "#" + props.elid + "_card"}>
 
 				<Grid container spacing={0}>
 					{left_card}
