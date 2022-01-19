@@ -15,7 +15,7 @@ function Describe(props) {
 				<h6 className="header_text">Skillset</h6>
 				<ul className="body_text skillset">
 					{props.skills.map((skill) =>
-						skill == 'line' ? <hr/> : (<li>{skill}</li>)
+						skill === 'line' ? <hr/> : (<li>{skill}</li>)
 					)}
 				</ul>
   			</Grid>

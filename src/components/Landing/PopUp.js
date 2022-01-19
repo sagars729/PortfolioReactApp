@@ -2,7 +2,6 @@ import Grid from '@mui/material/Grid';
 import Modal from '@mui/material/Modal';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
-import React, { useState } from 'react';
 import Describe from './Describe';
 import Card from './Card';
 import List from './List';

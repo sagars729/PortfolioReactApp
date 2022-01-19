@@ -1,5 +1,4 @@
 import Grid from '@mui/material/Grid';
-import Box from '@mui/material/Box';
 import React, { useState } from 'react';
 import PopUp from './PopUp';
 
@@ -22,8 +21,8 @@ function Card(props) {
 	const [promptVisibility, setPromptVisibility] = useState("hidden");
 	const [modalOpen, setModalOpen] = useState(false);
 
-	const right_card = props.right ? (<></>) : (<Grid item xs={2}><img src={props.card_img}/></Grid>);
-	const left_card = props.right ? (<Grid item xs={2}><img src={props.card_img}/></Grid>) : (<></>);
+	const right_card = props.right ? (<></>) : (<Grid item xs={2}><img src={props.card_img} alt=""/></Grid>);
+	const left_card = props.right ? (<Grid item xs={2}><img src={props.card_img} alt=""/></Grid>) : (<></>);
 	const center_card = (
             <Grid item xs={10}>
                 <h5 className="header_text">{props.position}</h5>
