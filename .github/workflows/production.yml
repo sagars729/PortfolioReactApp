@@ -29,8 +29,19 @@ jobs:
           repository: sagars729/PortfolioPipeline
           token: ${{ secrets.PIPELINE_PAT }}
 
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
+      # Pull website changes
+      - name: Deploy website changes
+        working_directory: website
         run: |
-          ls website
-          ls infrastructure
+          git checkout main
+          git pull origin main
+     
+      # Update website
+      - name: Update website
+        run: |
+          git add website
+          currentDate=`date +"%Y-%m-%d %T"`
+          git commit -m "Website Updated by GitHub Actions $currentDate"
+          git push -u origin main
+          
+          
