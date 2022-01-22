@@ -31,7 +31,7 @@ jobs:
 
       # Pull website changes
       - name: Deploy website changes
-        working_directory: website
+        working-directory: website
         run: |
           git checkout main
           git pull origin main
