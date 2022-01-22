@@ -41,7 +41,7 @@ jobs:
         working-directory: website
         run: |
           git remote update
-          git fetch
+          git fetch --all
           git checkout --track origin/dev
           git pull origin dev
      
