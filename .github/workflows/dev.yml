@@ -36,6 +36,7 @@ jobs:
         run: |
           git config --global user.email "sagardsaxena@gmail.com"
           git config --global user.name "Sagar Saxena"
+          git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
           git fetch
           git remote -v
           git branch -a
