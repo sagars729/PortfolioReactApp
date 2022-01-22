@@ -29,15 +29,22 @@ jobs:
           repository: sagars729/PortfolioPipeline
           token: ${{ secrets.PIPELINE_PAT }}
 
+      # Configure git
+      - name: Configure Git
+        working-directory: website
+        run: |
+          git config --global user.email "sagardsaxena@gmail.com"
+          git config --global user.name "Sagar Saxena"
+
       # Pull website changes
-      - name: Deploy website changes
+      - name: Pull Website Changes
         working-directory: website
         run: |
           git checkout main
           git pull origin main
      
       # Update website
-      - name: Update website
+      - name: Update Website
         run: |
           git add website
           currentDate=`date +"%Y-%m-%d %T"`
