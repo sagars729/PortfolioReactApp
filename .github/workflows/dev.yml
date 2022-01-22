@@ -40,6 +40,7 @@ jobs:
       - name: Pull Website Changes
         working-directory: website
         run: |
+          git fetch
           git checkout dev
           git pull origin dev
      
