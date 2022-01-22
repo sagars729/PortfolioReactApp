@@ -41,9 +41,7 @@ jobs:
       - name: Pull Website Changes
         working-directory: website
         run: |
-          git remote update
-          git fetch --all
-          git checkout --track origin/dev
+          git checkout --progress --force -B dev refs/remotes/origin/dev
           git pull origin dev
      
       # Update website
