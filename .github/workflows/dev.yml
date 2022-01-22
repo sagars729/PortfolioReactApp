@@ -45,7 +45,7 @@ jobs:
       - name: Pull Website Changes
         working-directory: website
         run: |
-          git checkout --progress --force -B dev refs/remotes/origin/dev
+          git checkout dev
           git pull origin dev
      
       # Update website
@@ -54,5 +54,5 @@ jobs:
           git add website
           currentDate=`date +"%Y-%m-%d %T"`
           git commit -m "Website Updated by GitHub Actions $currentDate"
-          git push -u origin main
+          git push -u origin dev
           
