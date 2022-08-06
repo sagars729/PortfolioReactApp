@@ -1,0 +1,10 @@
+# testing
+coverage
+
+# production
+build
+public
+
+# artifacts
+node_modules
+assets

@@ -9,10 +9,21 @@
 			"location": "Seattle, Washington",
 			"icon": "/media/landing/amazon.jpg",
 			"description": "I was an SDE 1 intern for the Amazon Associates team. I developed and owned an end-to-end recommendation system for matching brands with content creators. To accomplish this I created an ML recommender model and deployed it using AWS and Amazon's internal tools and services. I built a pipeline to automate data preprocessing and model training, evaluation, and prediction. I also authored a design document that detailed my research findings, proposed architecture, results, and next steps.\nThroughout this internship, I learned how to work with multiple AWS Services such as Sagemaker, S3, EMR, ECR, CloudFormation, and IAM. I also took multiple courses through Amazon's Machine Learning University to expand my ML skills.",
-			"skills": ["Python","Scala","AWS","line","Machine Learning","AutoGluon","Jupyter","line","Scrum","Design Doc"]
+			"skills": [
+				"Python",
+				"Scala",
+				"AWS",
+				"line",
+				"Machine Learning",
+				"AutoGluon",
+				"Jupyter",
+				"line",
+				"Scrum",
+				"Design Doc"
+			]
 		},
 		{
-			"id":"capone",
+			"id": "capone",
 			"company": "Capital One",
 			"position": "Tech Incubator Intern",
 			"duration": "June 2020 - May 2021",
@@ -20,10 +31,21 @@
 			"location": "College Park, Maryland",
 			"icon": "/media/landing/capone.png",
 			"description": "I was a Software Engineering Intern at the Tech Incubator Lab.\nDuring Spring 2021, I worked with the DataProfiler team to add new features and tests to the open-source DataProfiler repository.\nIn the fall, I worked with the Accessibility team to migrate Capital One's digital property inventory to a web interface. We created a ReactJS Web App that was hosted on AWS using S3, Lambda, add DynamoDB.\nOver the summer, I worked with the CyberML team to develop anomaly detection models for network traffic using Machine Learning. We created models from the ground up - starting with an initial research stage and ending with developed proof of concept models that are being carried forward by the CyberML team. These models will help Capital One identify new and existing threats on their network perimeter.\nI have also gained experience working with Agile Methodology and had the opportunity to use Capital One's Tech Invest In Yourself Days to gain skills in AWS and Unsupervised Learning.",
-			"skills": ["Python","ReactJS","AWS","line","Machine Learning","Unsupervised Learning","Google Colab","line","Agile","Open Source"]
+			"skills": [
+				"Python",
+				"ReactJS",
+				"AWS",
+				"line",
+				"Machine Learning",
+				"Unsupervised Learning",
+				"Google Colab",
+				"line",
+				"Agile",
+				"Open Source"
+			]
 		},
 		{
-			"id":"ta",
+			"id": "ta",
 			"company": "University of Maryland at College Park",
 			"position": "Undergraduate Teaching Assistant",
 			"duration": "August 2020 - Present",
@@ -31,10 +53,31 @@
 			"location": "College Park, Maryland",
 			"icon": "/media/landing/umd.png",
 			"description": "I am currently a peer mentor for the First-Year Innovation & Research Experience program. I am also a STIC Facilitator for CMSC389T (formerly CMSC388T).\nDuring Winter 2021, I was a CS Undergradute Teaching Assistant for Introduction to Git, Github, and Project Management Tools (CMSC388T). I helped design the lectures, create the projects, and launch the new CMSC course. I also managed four teams in a basic DevOps environment.\nDuring Fall 2020, I was a CS Undergraduate Teaching Assistant for CMSC330 (Organization of Programming Languages). I held weekly office hours and helped students learn and understand the course material.",
-			"skills": ["Programming Languages","OCaml","Ruby","Rust","line","Git","GitHub","Docker","DevOps","line","Machine Learning","Unsupervised Learning","Reinforcement Learning","line","Teaching","Project Management","line","Canvas","Gradescope","Piazza"]
+			"skills": [
+				"Programming Languages",
+				"OCaml",
+				"Ruby",
+				"Rust",
+				"line",
+				"Git",
+				"GitHub",
+				"Docker",
+				"DevOps",
+				"line",
+				"Machine Learning",
+				"Unsupervised Learning",
+				"Reinforcement Learning",
+				"line",
+				"Teaching",
+				"Project Management",
+				"line",
+				"Canvas",
+				"Gradescope",
+				"Piazza"
+			]
 		},
 		{
-			"id":"research",
+			"id": "research",
 			"company": "University of Maryland at College Park",
 			"position": "Undergraduate Researcher",
 			"duration": "October 2019 - Present",
@@ -42,7 +85,17 @@
 			"location": "College Park, Maryland",
 			"icon": "/media/landing/umd.png",
 			"description": "I am currently pursing research on using Generative Adversarial Networks to improve building damage classification following natural disasters.\nI have pursued research focused on investigating various Generative Adversarial Networks, their applications, and extrapolating them to new datasets and problems. As a part of this research, I wrote journal reports on the observations and analysis of experiments. I co-authored and submitted a paper on my research to IJCV where it is currently under review.",
-			"skills": ["Python","Keras","line","Github","JupyterLab","Anaconda","line","Computer Vision","Machine Learning"],
+			"skills": [
+				"Python",
+				"Keras",
+				"line",
+				"Github",
+				"JupyterLab",
+				"Anaconda",
+				"line",
+				"Computer Vision",
+				"Machine Learning"
+			],
 			"external_links": [
 				{
 					"id": "gan_github",
@@ -53,10 +106,10 @@
 					"icon": "/media/landing/github.png",
 					"link": "https://github.com/sagardsaxena/GAN"
 				}
-			]	
+			]
 		},
 		{
-			"id":"dit",
+			"id": "dit",
 			"company": "University of Maryland at College Park",
 			"position": "Student Software Developer",
 			"duration": "January 2020 - June 2020",
@@ -64,7 +117,22 @@
 			"location": "College Park, Maryland",
 			"icon": "/media/landing/dit.png",
 			"description": "I worked as a Student Software Developer for the Division of Information Technology at the University of Maryland. I worked on projects with Service-Now and automated user testing using Selenium WebDriver and performance testing using Locust.",
-			"skills": ["Python","Pytest","Selenium","Locust","JMeter","line","Github","ServiceNow","Jira","Bitbucket","AWS EC2","line","Automation","Testing"],
+			"skills": [
+				"Python",
+				"Pytest",
+				"Selenium",
+				"Locust",
+				"JMeter",
+				"line",
+				"Github",
+				"ServiceNow",
+				"Jira",
+				"Bitbucket",
+				"AWS EC2",
+				"line",
+				"Automation",
+				"Testing"
+			],
 			"external_links": [
 				{
 					"id": "gan_github",
@@ -75,18 +143,34 @@
 					"icon": "/media/landing/github.png",
 					"link": "https://github.com/sagars729/ServiceNow"
 				}
-			]	
+			]
 		},
 		{
-			"id":"anant",
+			"id": "anant",
 			"company": "Anant Corporation",
 			"position": "Internet Architect Apprentice, Blog Writer",
 			"duration": "June 2018 - August 2018",
 			"link": null,
 			"location": "Washington D.C.",
 			"icon": "/media/landing/anant.png",
-			"description": "My primary objective was to work on the Smmindy project. Smmindy or the Sales Marketing Mind, is a project that involves scraping details of jobs (opportunities), people (leads), and companies (accounts) from various websites such as LinkedIn, RemoteOk, Github, etc, classifying this data to identify potential clients using Machine Learning, connecting all this data together, and displaying this data on a website. I worked with Python, NodeJS, ReactJS, Docker, Cassandra, Kubernetes, ElasticSearch, and Digital Ocean on this project.\nSecondary responsibilities included creating Headless Chrome Browser NodeJS bots for automating tasks and writing blogs for the Anant Corporation Blog.", 
-			"skills": ["Python","Node.js","React","line","GitHub","Digital Ocean","Docker","ElasticSearch","Kubernetes","Cassandra","Nightmare","Puppeteer","line","Machine Learning","Blogging"],
+			"description": "My primary objective was to work on the Smmindy project. Smmindy or the Sales Marketing Mind, is a project that involves scraping details of jobs (opportunities), people (leads), and companies (accounts) from various websites such as LinkedIn, RemoteOk, Github, etc, classifying this data to identify potential clients using Machine Learning, connecting all this data together, and displaying this data on a website. I worked with Python, NodeJS, ReactJS, Docker, Cassandra, Kubernetes, ElasticSearch, and Digital Ocean on this project.\nSecondary responsibilities included creating Headless Chrome Browser NodeJS bots for automating tasks and writing blogs for the Anant Corporation Blog.",
+			"skills": [
+				"Python",
+				"Node.js",
+				"React",
+				"line",
+				"GitHub",
+				"Digital Ocean",
+				"Docker",
+				"ElasticSearch",
+				"Kubernetes",
+				"Cassandra",
+				"Nightmare",
+				"Puppeteer",
+				"line",
+				"Machine Learning",
+				"Blogging"
+			],
 			"external_links": [
 				{
 					"id": "anant_hire",
@@ -106,10 +190,10 @@
 					"icon": "/media/landing/python_anant.png",
 					"link": "https://blog.anant.us/python-for-machine-learning/"
 				}
-			]	
+			]
 		},
 		{
-			"id":"bigparser",
+			"id": "bigparser",
 			"company": "Big Parser",
 			"position": "Community Lead, API Team Lead, Alexa Skills and Web Developer",
 			"duration": "June 2017 - August 2017",
@@ -117,7 +201,19 @@
 			"location": "Reston, Virginia",
 			"icon": "/media/landing/bp.png",
 			"description": "API Team Lead - Reviewed and Tested the company's API and created a website to provide documentation for the API. This website was later used at the Big Parser Summer Hackathon.\nDeveloper for Voice Product - Coded an Alexa application that connects the Big Parser Grid to Alexa using Natural Language Processing, NodeJS, Python, and AWS Lambda. Met with other developers and company heads to talk to them about the Big Parser Voice product.\nCommunity Lead - Met with High School and Middle School students and taught them how to code, use the Big Parser API, and create Grids and Alexa Skills to prepare them for the Big Parser Summer Hackathon. Mentored at the 14-hour Big Parser Hackathon held at Microsoft, and taught students how to code and helped them develop full-fledged projects using the Big Parser API.",
-			"skills": ["Python","Node.js","AngularJS","HTML","CSS","line","Github","AWS","line","Machine Learning","Team Management"],
+			"skills": [
+				"Python",
+				"Node.js",
+				"AngularJS",
+				"HTML",
+				"CSS",
+				"line",
+				"Github",
+				"AWS",
+				"line",
+				"Machine Learning",
+				"Team Management"
+			],
 			"external_links": [
 				{
 					"id": "bp_github",
@@ -128,21 +224,25 @@
 					"icon": "/media/landing/github.png",
 					"link": "https://github.com/sagars729/BigParser_Guides"
 				}
-			]	
+			]
 		},
 		{
-			"id":"math",
+			"id": "math",
 			"company": "Loudoun County Regional Math Tournament",
 			"position": "Mathematics Tutor and Coach",
 			"duration": "December 2015 - March 2018",
 			"link": null,
 			"location": "Ashburn, Virginia",
 			"icon": "/media/landing/math.jpg",
-			"description":"I was a coach for a math team participating in the Loudoun County Regional Math Tournament, and it was my job to ensure that the students on my team are well prepared for their upcoming competition. As a coach, I taught various mathematical concepts in Algebra 1 and Geometry to a group of 8th graders. I taught students how to address problems that can arise during a competition and instill collaborative techniques and skills into the students, not only to aid them in this specific competition but also to help them with their daily academic careers.", 
-			"skills":["Teaching","Youth Mentoring","Team Building"]
+			"description": "I was a coach for a math team participating in the Loudoun County Regional Math Tournament, and it was my job to ensure that the students on my team are well prepared for their upcoming competition. As a coach, I taught various mathematical concepts in Algebra 1 and Geometry to a group of 8th graders. I taught students how to address problems that can arise during a competition and instill collaborative techniques and skills into the students, not only to aid them in this specific competition but also to help them with their daily academic careers.",
+			"skills": [
+				"Teaching",
+				"Youth Mentoring",
+				"Team Building"
+			]
 		},
 		{
-			"id":"mandir",
+			"id": "mandir",
 			"company": "Rajdhani Mandir",
 			"position": "Hindi Tutor, Mentor",
 			"duration": "September 2016 - January 2017",
@@ -150,37 +250,88 @@
 			"location": "Chantilly, Virginia",
 			"icon": "/media/landing/mandir.png",
 			"description": "I tutored young children in Hindi and taught them how to speak common phrases and sentences in the language. I also taught kids about Indian culture, as well as teaching a basic version of Indian History and Geography.",
-			"skills":["Hindi","line","Teaching","Youth Mentoring","Team Building"] 
+			"skills": [
+				"Hindi",
+				"line",
+				"Teaching",
+				"Youth Mentoring",
+				"Team Building"
+			]
 		}
 	],
 	"education": [
 		{
-			"id":"umd",
+			"id": "umd-ms",
 			"company": "University of Maryland at College Park",
-			"position": "Computer Science Major",
-			"duration": "August 2019 - Present",
+			"position": "M.S. Computer Science",
+			"duration": "August 2022 - Present",
+			"link": null,
+			"location": "College Park, Maryland",
+			"icon": "/media/landing/umd.png",
+			"description": "",
+			"skills": [
+				"Computer Science",
+				"Machine Learning",
+				"Data Science",
+				"Mathematics"
+			]
+		},
+		{
+			"id": "umd",
+			"company": "University of Maryland at College Park",
+			"position": "B.S. Computer Science/Machine Learning, Mathematics Minor",
+			"duration": "August 2019 - May 2022",
 			"link": null,
 			"location": "College Park, Maryland",
 			"icon": "/media/landing/umd.png",
 			"description": "Computer Science Major\nComputer Science Departmental Honors Program\nMachine Learning Specialization\nMathematics Minor",
-			"skills": ["Computer Science","Machine Learning","Data Science","Mathematics"],
+			"skills": [
+				"Computer Science",
+				"Machine Learning",
+				"Data Science",
+				"Mathematics"
+			],
 			"lists": [
 				{
 					"category": "Computer Science",
-					"contents": ["Discrete Structures","Computer Systems","Algorithms","Organization of Programming Languages", "Data Science", "Machine Learning", "Deep Learning", "Computer Vision", "Artificial Intelligence", "Network Security", "Database Design", "Gaurantees and Analysis of ML"]
+					"contents": [
+						"Discrete Structures",
+						"Computer Systems",
+						"Algorithms",
+						"Organization of Programming Languages",
+						"Data Science",
+						"Machine Learning",
+						"Deep Learning",
+						"Computer Vision",
+						"Artificial Intelligence",
+						"Network Security",
+						"Database Design",
+						"Gaurantees and Analysis of ML",
+						"Human Computer Interaction"
+					]
 				},
 				{
 					"category": "Mathematics",
-					"contents": ["Linear Algebra","Number Theory", "Computational Geometry", "Advanced Calculus", "Combinatorics and Graph Theory", "Advanced Linear Algebra", "Cryptography"]
+					"contents": [
+						"Linear Algebra",
+						"Number Theory",
+						"Computational Geometry",
+						"Advanced Calculus",
+						"Combinatorics and Graph Theory",
+						"Advanced Linear Algebra",
+						"Cryptography"
+					]
 				},
 				{
 					"category": "Other Electives",
-					"contents": ["First-Year Innovation & Research Experience"] 
+					"contents": [
+						"First-Year Innovation & Research Experience"
+					]
 				}
 			]
 		},
 		{
-			"id":"tj",
+			"id": "tj",
 			"company": "Thomas Jefferson High School For Science And Technology",
 			"position": "Alumnus, Computer Science",
 			"duration": "August 2015 - June 2019",
@@ -190,104 +341,190 @@
 			"lists": [
 				{
 					"category": "Post-AP Courses",
-					"contents": ["Computer Vision","Artificial Intelligence","Parallel Computing","Multivariable Calculus","Linear Algebra","Web Development","Mobile Development"]
+					"contents": [
+						"Computer Vision",
+						"Artificial Intelligence",
+						"Parallel Computing",
+						"Multivariable Calculus",
+						"Linear Algebra",
+						"Web Development",
+						"Mobile Development"
+					]
 				},
 				{
 					"category": "AP Courses",
-					"contents": ["Computer Science","BC Calculus","Statistics","Psychology","Economics","Physics","Literature","Government"]
+					"contents": [
+						"Computer Science",
+						"BC Calculus",
+						"Statistics",
+						"Psychology",
+						"Economics",
+						"Physics",
+						"Literature",
+						"Government"
+					]
 				},
 				{
 					"category": "Other Electives",
-					"contents": ["Computer Systems Lab","Cryptography","Analog Electronics","Digital Electronics"]
+					"contents": [
+						"Computer Systems Lab",
+						"Cryptography",
+						"Analog Electronics",
+						"Digital Electronics"
+					]
 				}
 			]
 		},
 		{
-			"id":"csl",
+			"id": "csl",
 			"company": "Thomas Jefferson High School For Science And Technology",
 			"position": "Researcher, Computer Systems Lab",
 			"duration": "September 2018 - June 2019",
 			"link": null,
 			"location": "Alexandria, Virginia",
 			"icon": "/media/landing/csl.png",
-			"description": "For my senior research project at TJHSST, I created a system that uses Computer Vision and Interactive Machine Learning to take attendance of a traditional school classroom.", 
-			"skills": ["Python","Matlab","SQLite","OpenCV","Keras","HTML","Javascript","CSS","line","Computer Vision","Machine Learning","Web Development","line","Research"],
+			"description": "For my senior research project at TJHSST, I created a system that uses Computer Vision and Interactive Machine Learning to take attendance of a traditional school classroom.",
+			"skills": [
+				"Python",
+				"Matlab",
+				"SQLite",
+				"OpenCV",
+				"Keras",
+				"HTML",
+				"Javascript",
+				"CSS",
+				"line",
+				"Computer Vision",
+				"Machine Learning",
+				"Web Development",
+				"line",
+				"Research"
+			],
 			"external_links": [
-                {
-                    "id": "csl_github",
-                    "title": "Project Repository",
-                    "subtitle": "GitHub",
-                    "status": "2018-2019",
-                    "description": "This Is a Public Repository",
-                    "icon": "/media/landing/github.png",
-                    "link": "https://github.com/sagars729/attendance"
-                }
-            ]
+				{
+					"id": "csl_github",
+					"title": "Project Repository",
+					"subtitle": "GitHub",
+					"status": "2018-2019",
+					"description": "This Is a Public Repository",
+					"icon": "/media/landing/github.png",
+					"link": "https://github.com/sagars729/attendance"
+				}
+			]
 		}
 	],
 	"skills": [
 		{
 			"category": "Programming Languages",
-			"contents": ["Python"," C++"," C"," Node.js"," Java"," JavaScript"," HTML5"," CSS3"," AngularJS"," React"," Android Studio"," Solidity"," Matlab"," SQL"," SQLite","  Ruby"," OCaml"]
+			"contents": [
+				"Python",
+				" C++",
+				" C",
+				" Node.js",
+				" Java",
+				" JavaScript",
+				" HTML5",
+				" CSS3",
+				" AngularJS",
+				" React",
+				" Android Studio",
+				" Solidity",
+				" Matlab",
+				" SQL",
+				" SQLite",
+				"  Ruby",
+				" OCaml"
+			]
 		},
 		{
 			"category": "Operating Systems",
-			"contents": ["MacOS"," Linux"," Windows"," ChromeOS"]
+			"contents": ["MacOS", " Linux", " Windows", " ChromeOS"]
 		},
 		{
 			"category": "Software and Libraries",
-			"contents": ["TensorFlow","Keras","OpenCV","OpenMP","OpenGL","CUDA","Docker","ElasticSearch","VirtualBox","Amazon Web Services","DigitalOcean","Selenium"] 
+			"contents": [
+				"TensorFlow",
+				"Keras",
+				"OpenCV",
+				"OpenMP",
+				"OpenGL",
+				"CUDA",
+				"Docker",
+				"ElasticSearch",
+				"VirtualBox",
+				"Amazon Web Services",
+				"DigitalOcean",
+				"Selenium"
+			]
 		},
 		{
 			"category": "Industry Knowledge",
-			"contents": ["Machine Learning","Artificial Intelligence","Deep Learning","Computer Vision","Parallel Computing"]
+			"contents": [
+				"Machine Learning",
+				"Artificial Intelligence",
+				"Deep Learning",
+				"Computer Vision",
+				"Parallel Computing"
+			]
 		},
 		{
 			"category": "Interpersonal Skills",
-			"contents": ["Team Management"," Team Building"," Youth Mentoring"," Teaching"]
+			"contents": [
+				"Team Management",
+				" Team Building",
+				" Youth Mentoring",
+				" Teaching"
+			]
 		},
 		{
 			"category": "Languages",
-			"contents": ["English","Hindi"]
+			"contents": ["English", "Hindi"]
 		}
 	],
 	"extracurriculars": [
 		{
-			"id":"rres",
-			"company": "University of Maryland at College Park", 
+			"id": "rres",
+			"company": "University of Maryland at College Park",
 			"position": "Webmaster, Content Creator for Rising Researchers",
 			"duration": "September 2019 - Present",
 			"link": null,
 			"location": "College Park, Maryland",
 			"icon": "/media/landing/rres.jpg",
-			"skillset": ["Teaching","Youth Mentoring","Wix"],
+			"skillset": ["Teaching", "Youth Mentoring", "Wix"],
 			"description": "I am a member of the Rising Researchers Club at UMD. I work with members of this club to create material to educate high school students on how they can read and understand research papers and get involved with academic research.",
 			"external_links": [
 				{
-                    "id": "rrumd_web",
-                    "title": "Club Website",
-                    "subtitle": "Created with Wix",
-                    "icon": "/media/landing/rres.png",
-                    "link": "https://risingresearchers0.wixsite.com/website"
+					"id": "rrumd_web",
+					"title": "Club Website",
+					"subtitle": "Created with Wix",
+					"icon": "/media/landing/rres.png",
+					"link": "https://risingresearchers0.wixsite.com/website"
 				}
 			]
 		},
 		{
-			"id":"muas",
-			"company": "University of Maryland at College Park", 
+			"id": "muas",
+			"company": "University of Maryland at College Park",
 			"position": "Vision Sub-Team, Maryland Unmanned Aerial Systems",
 			"duration": "September 2019 - June 2020",
 			"link": null,
 			"location": "College Park, Maryland",
 			"icon": "/media/landing/muas.jpg",
-			"skillset": ["Python","Arduino","line","Google Colaboratory","line","Machine Learning"],
+			"skillset": [
+				"Python",
+				"Arduino",
+				"line",
+				"Google Colaboratory",
+				"line",
+				"Machine Learning"
+			],
 			"description": "I was a member of the Maryland Unmanned Aerial Systems Club at UMD. Through this club we engineer and program a drone to compete at the Association For Unmanned Systems International's Student Unmanned Aerial Systems Competition. I worked with the Vision Subteam to enable the drone to process and classify ground targets."
 		}
 	],
 	"accomplishments": [
 		{
-			"id":"aws",
-			"company": "Amazon Web Services", 
+			"id": "aws",
+			"company": "Amazon Web Services",
 			"position": "AWS Certified Developer – Associate",
 			"duration": "August 2020",
 			"link": "https://www.youracclaim.com/badges/aec74b50-b6ae-4341-ae7d-d43747808ffd",
@@ -295,8 +532,8 @@
 			"icon": "/media/landing/aws.jpg"
 		},
 		{
-			"id":"cds1",
-			"company": "General Assembly", 
+			"id": "cds1",
+			"company": "General Assembly",
 			"position": "Certified Data Scientist Level 1 Credential",
 			"duration": "November 2019",
 			"link": "https://my.generalassemb.ly/awards/CV69HDHJR",
@@ -304,30 +541,37 @@
 			"icon": "/media/landing/ga.png"
 		},
 		{
-			"id":"pcap",
+			"id": "pcap",
 			"company": "Python Institute, OpenEDG Education Platform",
-			"position": "Certified Associate In Python Programming", 
+			"position": "Certified Associate In Python Programming",
 			"duration": "September 2018",
 			"link": "https://edu.openedg.org/certificates/verify/roZE.GCtS.b5FD",
 			"location": "",
 			"icon": "/media/landing/pinst.png"
 		},
 		{
-			"id":"acm",
+			"id": "acm",
 			"company": "ACM@UVa: HSPC",
-			"position": "3rd Place", 
+			"position": "3rd Place",
 			"duration": "March 2018, March 2019",
 			"location": "University of Virginia",
-			"link": null, 
+			"link": null,
 			"icon": "/media/landing/acm.png",
 			"description": "I competed with a team of students on behalf of the Senior Computer Team at the High School Programming Competition at the University of Virginia. My team and I placed third at the competition for two years in a row.",
-			"skillset": ["Python","C++","Java","line","Team Collaboration","Competitive Programming"]
+			"skillset": [
+				"Python",
+				"C++",
+				"Java",
+				"line",
+				"Team Collaboration",
+				"Competitive Programming"
+			]
 		}
 	],
 	"scores": [
 		{
 			"category": "Standardized Tests",
-			"contents": ["ACT 36","SAT 1560"]
+			"contents": ["ACT 36", "SAT 1560"]
 		}
 	]
 }
