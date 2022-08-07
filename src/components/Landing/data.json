@@ -1,6 +1,33 @@
 {
 	"experience": [
 		{
+			"id": "stripe",
+			"company": "Stripe",
+			"position": "Software Engineering Intern",
+			"duration": "June 2022 - August 2022",
+			"link": null,
+			"location": "Seattle, Washington",
+			"icon": "/media/landing/stripe.png",
+			"description": "I was a Software Engineering Intern on the User Billing Team. I scoped and implemented a new React App to help developers migrate 3.6 million merchants to a new billing system. I conducted user interviews, gathered requirements, created a design document, and collected feedback to continue iterating on my deliverable. I developed across multiple code stacks to create the necessary front-end and back-end components. \n I also picked up a second project and delivered a dashboard to provide high-level metrics on the status of migrations to the new billing system.",
+			"skills": [
+				"Java",
+				"React",
+				"Ruby",
+				"SQL",
+				"Protobuf",
+				"Scala",
+				"Python",
+				"line",
+				"Full-Stack",
+				"Hubble",
+				"Data Analysis",
+				"line",
+				"Design Doc",
+				"Prototyping",
+				"User Interviews"
+			]
+		},
+		{
 			"id": "amazon",
 			"company": "Amazon",
 			"position": "Software Development Engineering Intern",
