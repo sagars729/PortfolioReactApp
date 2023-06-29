@@ -9,13 +9,12 @@ export default function Summary() {
 				Sagar Saxena
 			</h4>
 			<p className="flow-text body_text secondary-theme-text">
-				I am a M.S. student at the University of
-				Maryland at College Park. I graduated with a
-				B.S. in Computer Science specializing in
-				Machine Learning with a minor in Mathematics. My
-				interests lie in Deep Learning, Reinforcement
-				Learning, and Computer Vision. You can find out
-				more by clicking on the sections below.
+				I am an incoming Software Engineer at Stripe. I
+				graduated with both my M.S. and B.S. in Computer
+				Science at the University of Maryland at College
+				Park specializing in Machine Learning with a minor
+				in Mathematics. You can find out more by clicking
+				on the sections below.
 			</p>
 			<p className="flow-text body_text secondary-theme-text">
 				Welcome to my landing page! This website is
