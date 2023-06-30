@@ -291,16 +291,35 @@
 			"id": "umd-ms",
 			"company": "University of Maryland at College Park",
 			"position": "M.S. Computer Science",
-			"duration": "August 2022 - Present",
+			"duration": "August 2022 - May 2023",
 			"link": null,
 			"location": "College Park, Maryland",
 			"icon": "/media/landing/umd.png",
-			"description": "",
+			"description": "Combined BS/MS Program",
 			"skills": [
 				"Computer Science",
 				"Machine Learning",
 				"Data Science",
 				"Mathematics"
+			],
+			"lists": [
+			  {
+				  "category": "AI / ML",
+					"contents": [
+					  "Gaurantees and Analysis of ML",
+						"Foundations of Deep Learning",
+						"Natural Language Processing",
+						"Fantastic ML Paradigms and Where To Use Them",
+						"AI Planning"
+					]
+				},
+				{
+				  "category": "Other Coursework",
+					"contents": [
+					  "Information Visualization",
+						"Advances in XR"
+					]
+				}
 			]
 		},
 		{
