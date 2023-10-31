@@ -21,3 +21,7 @@ jobs:
       # Run linter
       - name: Lint
         run: npm run lint
+
+      # Run prettier
+      - name: Prettier
+        run: npm run prettier
