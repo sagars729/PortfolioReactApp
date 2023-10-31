@@ -1,0 +1,35 @@
+{
+	"env": {
+		"browser": true,
+		"es2021": true
+	},
+	"extends": ["plugin:react/recommended"],
+	"overrides": [],
+	"parserOptions": {
+		"ecmaFeatures": {
+			"jsx": true
+		},
+		"ecmaVersion": 12,
+		"sourceType": "module"
+	},
+	"plugins": ["react", "react-hooks"],
+	"rules": {
+		"react/no-unknown-property": [
+			2,
+			{
+				"ignore": ["jsx", "css"]
+			}
+		],
+		"react/prop-types": [
+			2,
+			{
+				"ignore": ["jsx"]
+			}
+		]
+	},
+	"settings": {
+		"react": {
+			"version": "detect"
+		}
+	}
+}

@@ -6,7 +6,7 @@ name: UpdateDevPipeline
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches: [ dev ]
+    branches: [dev]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -20,7 +20,6 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Check out and update pipeline repository
         uses: actions/checkout@master
@@ -47,7 +46,7 @@ jobs:
         run: |
           git checkout dev
           git pull origin dev
-     
+
       # Update website
       - name: Update Website
         run: |
@@ -55,4 +54,3 @@ jobs:
           currentDate=`date +"%Y-%m-%d %T"`
           git commit -m "Website Updated by GitHub Actions $currentDate"
           git push -u origin dev
-          
